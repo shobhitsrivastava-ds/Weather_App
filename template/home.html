@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+     <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename="main.css")}}">
+</head>
+<style>
+  #main-footer
+    {
+      color: #FFFFFF;
+      font-family: "Segoe UI";
+      background: #2B2B2B;
+      text-align: center;
+      margin-top: 290px;
+      padding: 16px;
+      bottom: 8px;
+    }
+  </style>
+<body>
+
+	<header class="site-header">
+  <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
+    <div class="container">
+      <a class="navbar-brand mr-4" href="/">Weather App</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarToggle">
+        <div class="navbar-nav mr-auto">
+          <a class="nav-item nav-link" href="/">Home</a>
+          <a class="nav-item nav-link" href="/about">About</a>
+          <a class="nav-item nav-link" href="/form">Form</a>
+        </div>
+        <!-- Navbar Right Side 
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="/login">Login</a>
+          <a class="nav-item nav-link" href="/register">Register</a>
+        </div>-->
+      </div>
+    </div>
+  </nav>
+</header>
+	<div class="container">
+	<h3>Welcome to the home page of the Weather App</h3>
+	<p>Here we gonna be helping you out to find out the weather condition of any particular city in the world</p>
+  <p>This weather app is one of best free weather apps with full features: Local weather, weather map (windyty weather map service) and weather widgets.
+Forecastle: Forecast now, hourly forecast and daily forecast app.
+Weather map, weather radar map: Local weather radar app free with a lot of radar scope: Rain/snow, temperature, pressure, windy, clouds, humidity, waves, and storm radar.<br>
+
+Its so easy to receive the weather conditions in your current location.
+Weather forecast app provides detailed local forecast & weather forecast world wide, the app provides the current temperature in Celsius,sunrise and sunset time according to city time zone.
+The weather app also provides atmospheric pressure, weather conditions, visibility distance, relative humidity, precipitation in different unites, dew point, wind speed and direction, in addition to ten days in future and hourly weather forecast.
+Realtime temperature, humidity, pressure and wind direction are all in the weather app based.
+<br>
+<p>So what are you waiting for !</p>
+<p>API USED :http://api.apixu.com/v1/current.json?key=a65b9295ecc24ae7ba8104243192703&q=Delhi</p>
+</p>
+</div> 
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+      <footer id="main-footer">
+      Copyright &copy; 2020
+    </footer>
+</body>
+</html>
