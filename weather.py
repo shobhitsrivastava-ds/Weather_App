@@ -23,8 +23,8 @@ def about():
 #	return(render_template("success.html",data=data))
 
 
-@app.route("/weather", methods=["GET", "POST"])
-def weather():
+@app.route("/success", methods=["GET", "POST"])
+def success():
     if(request.method == "POST"):
         city = request.form["nm"]
         app1 = wed.wea(str(city))
